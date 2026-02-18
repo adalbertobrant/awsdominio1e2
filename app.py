@@ -132,7 +132,7 @@ def submit_answer(selected_option, auto_timeout=False):
 # =============================================================================
 if not st.session_state.logged_in:
     st.title("🔐 Acesso ao Simulado AWS")
-    st.markdown("Bem-vindo ao simulado preparatório do **Prof. Adalberto Caldeira Brant Filho**.")
+    st.markdown("Bem-vindo ao simulado preparatório do **Mentor. Adalberto Caldeira Brant Filho**. Voluntário Escola da Nuvem - 2026")
 
     with st.form("login_form"):
         st.markdown("### Identificação do Aluno")
